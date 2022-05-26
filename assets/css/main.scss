@@ -195,7 +195,7 @@ body {
     @media (max-width: 768px) {
       padding: 5px;
       .menu-trigger {
-        width: 26%;
+        flex: 1;
         button {
           width: 35px;
           height: 35px;
@@ -208,19 +208,21 @@ body {
         }
       }
       .search {
-        flex: 1;
+        flex: 10;
         display: flex;
         border-bottom: 1px solid #989898;
         padding-bottom: 5px;
         font-size: 18px;
         align-items: center;
-        margin: 10px;
+        margin: 10px 0;
         .icon {
           width: 20px;
         }
       }
       .m-right {
-        gap: 10px;
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
         .m-item {
           width: 30px;
         }
