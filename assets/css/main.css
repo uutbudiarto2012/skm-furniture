@@ -99,6 +99,12 @@ body ._is_open_menu_layer.on {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  ._f_landing {
+    min-height: calc(100vh);
+  }
+}
+
 ._f_landing .text-welcome {
   width: 40%;
   font-weight: 600;
