@@ -21,6 +21,10 @@ body {
   }
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .denyut {
   animation: pound 0.2s infinite;
   animation-duration: 2s;
@@ -626,7 +630,7 @@ section {
       color: #fff;
     }
     @media (max-width: 768px) {
-      width: 100%;
+      width: 95%;
       input {
         flex: 1;
         border: 1px solid #857f7f;
@@ -637,7 +641,7 @@ section {
       button {
         height: 45px;
         width: 60px;
-        margin-left: 10px;
+        margin: 0 10px;
       }
     }
   }
