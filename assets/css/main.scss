@@ -597,6 +597,7 @@ section {
   align-items: center;
   flex-direction: column;
   background-color: #d0ddf0;
+  box-sizing: border-box;
   .footer-title {
     margin-bottom: 30px;
     h3 {
