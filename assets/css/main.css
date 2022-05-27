@@ -869,7 +869,7 @@ section .title-section {
 
 @media (max-width: 768px) {
   ._f_footer .form-mail {
-    width: 80%;
+    width: 100%;
   }
   ._f_footer .form-mail input {
     -webkit-box-flex: 1;
