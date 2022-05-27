@@ -141,7 +141,7 @@ body {
     display: flex;
     align-items: center;
     .menu-trigger {
-      width: 15%;
+      width: 150px;
       button {
         width: 40px;
         height: 40px;
@@ -180,7 +180,7 @@ body {
       }
     }
     .m-right {
-      width: 15%;
+      width: 150px;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
@@ -195,7 +195,7 @@ body {
     @media (max-width: 768px) {
       padding: 5px;
       .menu-trigger {
-        flex: 1;
+        width: 50px;
         button {
           width: 35px;
           height: 35px;
@@ -208,7 +208,7 @@ body {
         }
       }
       .search {
-        flex: 10;
+        flex: 1;
         display: flex;
         border-bottom: 1px solid #989898;
         padding-bottom: 5px;
@@ -220,7 +220,7 @@ body {
         }
       }
       .m-right {
-        flex: 1;
+        width: 80px;
         display: flex;
         justify-content: space-around;
         .m-item {
